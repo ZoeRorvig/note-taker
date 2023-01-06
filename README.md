@@ -1,5 +1,4 @@
 # Note Taker
-![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 [Link to My Project via Heroku](https://rocky-oasis-67925.herokuapp.com/notes)
 
@@ -17,9 +16,6 @@ Features Include:
 
 ## Instructions
 - TEXT
-
-## License
-To get more information for this license, please see [MIT](https://opensource.org/licenses/MIT)!
 
 ## Visuals 
 
