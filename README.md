@@ -15,7 +15,11 @@ Features Include:
 - TEXT HERE
 
 ## Instructions
-- TEXT
+- Press "Get Started" on the home page to view past notes and/or add new notes.
+- To add a new note, press the "+" in the upper right corner and type in "Note Title" and "Note Text" areas. 
+- To view an old note, click on a Note Title on the left side of the screen, if present. 
+- To delete an old note, click on the respective red trash can icon.
+- To go back to the home page, click on "Note Taker" in the upper left hand corner. 
 
 ## Visuals 
 
