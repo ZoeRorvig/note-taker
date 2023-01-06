@@ -41,14 +41,32 @@ app.post('/api/notes', (req, res) => {
     const newNote = {
       title,
       text,
-      task_id: uuid(),
+      id: uuid(),
     };
 
     res.json(newNote);
+    
     notes.push(newNote);
-    fs.writeFile(path.join(__dirname, "/db/db.json"), JSON.stringify(notes), (err) =>
+    fs.writeFile(path.join(__dirname, "/db/db.json"), JSON.stringify(notes, null, 2), (err) =>
       err ? console.error(err) : console.info(`\nData written to db.json`));
   }
+});
+
+// Delete Notes
+app.delete('/api/notes/:id', (req, res) => {
+  const deletedNote = req.params.id;
+
+  for (let i =0; i < notes.length; i++){
+    if(notes[i].id == deletedNote){
+      notes.splice(i, 1);
+      console.info(`Deleted note ${deletedNote}!`);
+    }
+  }
+
+  fs.writeFile(path.join(__dirname, "/db/db.json"), JSON.stringify(notes, null, 2), (err) =>
+    err ? console.error(err) : console.info(`\nData written to db.json`));
+
+  res.json(notes);
 });
 
 app.listen(PORT, () =>
