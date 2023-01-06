@@ -8,7 +8,7 @@
 - [Visuals](#visuals)
 
 ## Description 
-This application is used to write and save notes.
+This application is used to write/save new notes and view/delete old notes.
 
 Features Include:
 - Home page including the name of the application, a description, and a "Get Started" button.
