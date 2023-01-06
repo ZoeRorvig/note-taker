@@ -23,6 +23,18 @@ To get more information for this license, please see [MIT](https://opensource.or
 
 ## Visuals 
 
-The following is a screenshot of the deployed program:
+The following is a gif demoing the application:
+
+![gif](./images/demo.gif)
+
+The following is a screenshot of the main page:
+
+![screenshot](./images/main-page.png)
+
+The following is a screenshot of the base notes page:
 
 ![screenshot](./images/notespage.png)
+
+The following is a screenshot of the notes page with a past note presenting :
+
+![screenshot](./images/pull-old-notes.png)
