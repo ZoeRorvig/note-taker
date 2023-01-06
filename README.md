@@ -1,6 +1,7 @@
 # Note Taker
-
 ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+[Link to My Project via Heroku](https://rocky-oasis-67925.herokuapp.com/notes)
 
 ## Table of Contents
 - [Description](#description)
@@ -15,7 +16,7 @@ Features Include:
 - TEXT HERE
 
 ## Instructions
-- Enter "node index.js" into the command terminal to run the program.
+- TEXT
 
 ## License
 To get more information for this license, please see [MIT](https://opensource.org/licenses/MIT)!
@@ -24,4 +25,4 @@ To get more information for this license, please see [MIT](https://opensource.or
 
 The following is a screenshot of the deployed program:
 
-![screenshot](#)
+![screenshot](./images/notespage.png)
